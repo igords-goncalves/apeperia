@@ -1,0 +1,17 @@
+@import url("./css/reset.css");
+@import url("./css/header.css");
+@import url("./css/call-to-action.css");
+@import url("./css/plans.css");
+
+body {
+   font-family: 'Open Sans', sans-serif; 
+}
+
+/* Convenção para projetos
+
+1. **Estilo de Display**
+2. **Estilo de Cores**
+3. **Estilo de bordas**
+4. **Estilos de Size**
+5. **Estilo de Spacing**
+6. **Estilo de Font** */
