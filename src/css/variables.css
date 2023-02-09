@@ -8,9 +8,9 @@
 
     --bg-header-cta: linear-gradient(
         90deg,
-        rgba(0, 17, 31, 1) 0%,
-        rgba(0, 22, 28, 1) 35%,
-        rgba(0, 99, 255, 1) 100%
+        #00111f 0%,
+        #00161c 35%,
+        #001e30 100%
     );
     --bt-footer: #333;
 
