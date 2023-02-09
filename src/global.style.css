@@ -1,10 +1,12 @@
 @import url("./css/reset.css");
+@import url("./css//variables.css");
 @import url("./css/header.css");
 @import url("./css/call-to-action.css");
 @import url("./css/plans.css");
 
 body {
-   font-family: 'Open Sans', sans-serif; 
+   font-family: 'Open Sans', sans-serif;
+   font-size: inherit;
 }
 
 /* Convenção para projetos
