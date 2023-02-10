@@ -34,3 +34,7 @@
 
     padding: 16px 0;
 }
+
+.cta__link:hover {
+    background-color: #cccccc1e;
+}
