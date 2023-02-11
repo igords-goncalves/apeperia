@@ -1,0 +1,30 @@
+.about {
+    background-color: var(--color-white);
+    margin: 40px 0 0 30px;
+    padding: 20px;
+}
+
+.flexdirection {
+    display: flex;
+    align-items: center;
+
+    padding: 30px 0 20px 0;
+}
+
+.about__image {
+    width: auto;
+}
+
+.about__title {
+    color: var(--color-dark-grey);
+
+    padding: 10px 7px;
+
+    font-weight: bolder;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.about__text {
+    margin-left: 40px;
+}
