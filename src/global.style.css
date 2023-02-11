@@ -2,11 +2,21 @@
 @import url("./css//variables.css");
 @import url("./css/header.css");
 @import url("./css/call-to-action.css");
+@import url("./css/highlights.css");
+@import url("./css/about.css");
 @import url("./css/plans.css");
 
 body {
    font-family: 'Open Sans', sans-serif;
    font-size: inherit;
+}
+
+.btn--link {
+   max-width: 350px;
+}
+
+p[class$="__text"] {
+   line-height: 130%;;
 }
 
 /* Convenção para projetos
