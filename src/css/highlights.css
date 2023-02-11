@@ -1,0 +1,51 @@
+.highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--bg-highlights);
+
+    /* Achei mais elegante com o container limitando o conteúdo */
+    padding: 20px;
+}
+
+.highlights__title {
+    color: var(--color-dark-grey);
+
+    padding: 37px 0;
+
+    text-align: center;
+
+    font-family: var(--font-title);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.highlights__image {
+    width: 100%;
+    max-width: 564px;
+}
+
+.highlights__text {
+    padding: 8px 27px 34px 27px;
+
+    font-family: var(--font-text);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.highlights__link {
+    color: var(--color-red);
+
+    border: solid 2px var(--color-red);
+    border-radius: 5px;
+
+    width: 100%;
+
+    text-align: center;
+    font-weight: bold;
+
+    padding: 16px 16px;
+    margin-bottom: 32px;
+}
