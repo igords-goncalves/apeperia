@@ -19,6 +19,10 @@ p[class$="__text"] {
    line-height: 130%;;
 }
 
+*[class$="__title"] {
+   text-transform: uppercase;
+}
+
 /* Convenção para projetos
 
 1. **Estilo de Display**
