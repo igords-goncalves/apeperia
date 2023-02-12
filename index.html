@@ -6,43 +6,48 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="stylesheet" href="./src/global.style.css" />
+
+        <script src="https://unpkg.com/scrollreveal"></script>
         <title>Apeperia</title>
     </head>
     <body>
         <header class="header">
-            <a href="#" class="header__link">
-                <img
-                    src="./src/assets/img/logo-apeperia.svg"
-                    alt="Logo Marca Apeperia"
-                    class="header__image"
-                />
-            </a>
-            <nav class="header__menu">
-                <ul class="header__list">
-                    <li class="header__item">
-                        <a href="#about" class="header__link">Sobre</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="#plans" class="header__link">Planos</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="#blog" class="header__link">Blog</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="#highlights" class="header__link">Destaques</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="#institutional" class="header__link"
-                            >Institucional</a
-                        >
-                    </li>
-                    <li class="header__item">
-                        <a href="#contact" class="header__link">Contato</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
+            <div class="flexdirection">
+                <a href="#" class="header__link">
+                    <img
+                        src="./src/assets/img/logo-apeperia.svg"
+                        alt="Logo Marca Apeperia"
+                        class="header__image"
+                    />
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#about" class="header__link">Sobre</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#plans" class="header__link">Planos</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#blog" class="header__link">Blog</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#highlights" class="header__link"
+                                >Destaques</a
+                            >
+                        </li>
+                        <li class="header__item">
+                            <a href="#institutional" class="header__link"
+                                >Institucional</a
+                            >
+                        </li>
+                        <li class="header__item">
+                            <a href="#contact" class="header__link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
             <section class="cta" id="#cta">
                 <h1 class="cta__title">Aplicativos Na Medida</h1>
                 <p class="cta__text">
@@ -53,6 +58,8 @@
                     >Conheça os planos</a
                 >
             </section>
+        </header>
+        <main>
             <section class="highlights" id="highlights">
                 <h1 class="highlights__title">DESTAQUES</h1>
                 <img
@@ -76,83 +83,99 @@
                 >
             </section>
             <section class="about" id="about">
-                <div class="flexdirection">
-                    <img
-                        src="./src/assets/img/icone-relogio.png"
-                        alt="relogio"
-                        class="about__image"
-                    />
-                    <h3 class="about__title">Tempo</h3>
+                <div class="flexcolumn">
+                    <div class="flexdirection">
+                        <img
+                            src="./src/assets/img/icone-relogio.png"
+                            alt="relogio"
+                            class="about__image"
+                        />
+                        <h3 class="about__title">Tempo</h3>
+                    </div>
+                    <p class="about__text">
+                        Tempo é importante! Trabalhamos em ritmo acelerado,
+                        atendendo rigorosamente aos prazos.
+                    </p>
                 </div>
-                <p class="about__text">
-                    Tempo é importante! Trabalhamos em ritmo acelerado,
-                    atendendo rigorosamente aos prazos.
-                </p>
-                <div class="flexdirection">
-                    <img
-                        src="./src/assets/img/icone-dinheiro.png"
-                        alt="alvo"
-                        class="about__image"
-                    />
-                    <h3 class="about__title">Foco</h3>
+                <div class="flexcolumn">
+                    <div class="flexdirection">
+                        <img
+                            src="./src/assets/img/icone-dinheiro.png"
+                            alt="alvo"
+                            class="about__image"
+                        />
+                        <h3 class="about__title">Foco</h3>
+                    </div>
+                    <p class="about__text">
+                        Focamos no empreendimento! Oferecemos serviços de
+                        qualidade com preços acessíveis.
+                    </p>
                 </div>
-                <p class="about__text">
-                    Focamos no empreendimento! Oferecemos serviços de qualidade
-                    com preços acessíveis.
-                </p>
-                <div class="flexdirection">
-                    <img
-                        src="./src/assets/img/icone-quimica.png"
-                        alt="pessoa"
-                        class="about__image"
-                    />
-                    <h3 class="about__title">Especialistas</h3>
+                <div class="flexcolumn">
+                    <div class="flexdirection">
+                        <img
+                            src="./src/assets/img/icone-quimica.png"
+                            alt="pessoa"
+                            class="about__image"
+                        />
+                        <h3 class="about__title">Especialistas</h3>
+                    </div>
+                    <p class="about__text">
+                        Equipe experiente e especializada! Testamos todos os
+                        produtos antes do lançamento.
+                    </p>
                 </div>
-                <p class="about__text">
-                    Equipe experiente e especializada! Testamos todos os
-                    produtos antes do lançamento.
-                </p>
             </section>
             <section class="aboutus">
-                <h2 class="aboutus__title">Sobre</h2>
-                <p class="aboutus__text">
-                    Criamos aplicativos personalizados para todas as pessoas!
-                </p>
-                <p class="aboutus__text">
-                    A manutenção de um aplicativo não pode ser um custo extra
-                    para o cliente, Na Apeperia você assina nosso serviço e a
-                    manutenção já está inclusa. Assim, você não se preocupa com
-                    manutenção, é tudo por nossa conta.
-                </p>
-                <p class="aboutus__text">
-                    Conte com uma equipe especializada e exclusiva pra projetos
-                    incríveis em qualquer plataforma.
-                </p>
-                <div class="flexdirection">
+                <div class="aboutus--direction">
+                    <h2 class="aboutus__title">Sobre</h2>
+                    <p class="aboutus__text">
+                        Criamos aplicativos personalizados para todas as
+                        pessoas!
+                    </p>
+                    <p class="aboutus__text">
+                        A manutenção de um aplicativo não pode ser um custo
+                        extra para o cliente, Na Apeperia você assina nosso
+                        serviço e a manutenção já está inclusa. Assim, você não
+                        se preocupa com manutenção, é tudo por nossa conta.
+                    </p>
+                    <p class="aboutus__text">
+                        Conte com uma equipe especializada e exclusiva pra
+                        projetos incríveis em qualquer plataforma.
+                    </p>
+                    <div class="flexdirection">
+                        <img
+                            src="./src/assets/img/android.png"
+                            alt="android"
+                            class="aboutus__image"
+                        />
+                        <img
+                            src="./src/assets/img/blackberry.png"
+                            alt="blackberry"
+                            class="aboutus__image"
+                        />
+                        <img
+                            src="./src/assets/img/apple.png"
+                            alt="apple"
+                            class="aboutus__image"
+                        />
+                        <img
+                            src="./src/assets/img/windowsphone.png"
+                            alt="windows"
+                            class="aboutus__image"
+                        />
+                    </div>
+                    <p class="aboutus__text">
+                        Desenvolvemos aplicativos para todas as plataformas
+                    </p>
+                </div>
+                <div class="aboutus--image">
                     <img
-                        src="./src/assets/img/android.png"
-                        alt="android"
-                        class="aboutus__image"
-                    />
-                    <img
-                        src="./src/assets/img/blackberry.png"
-                        alt="blackberry"
-                        class="aboutus__image"
-                    />
-                    <img
-                        src="./src/assets/img/apple.png"
-                        alt="apple"
-                        class="aboutus__image"
-                    />
-                    <img
-                        src="./src/assets/img/windowsphone.png"
-                        alt="windows"
-                        class="aboutus__image"
+                        src="./src/assets/img/sobre-apeperia.png"
+                        alt=""
+                        class="aboutus--element"
                     />
                 </div>
-                <p class="aboutus__text">
-                    Desenvolvemos aplicativos para todas as plataformas
-                </p>
             </section>
             <section class="plans" id="plans">
                 <h2 class="plans__title">Planos</h2>
@@ -169,7 +192,9 @@
                                 1 sistema operacional
                             </li>
                         </ul>
-                        <a href="" class="plans__card__link start--color">Assinar plano</a>
+                        <a href="" class="plans__card__link start--color"
+                            >Assinar plano</a
+                        >
                     </div>
                     <div class="plans__card">
                         <h3 class="plans__card__title ultra--color">Ultra</h3>
@@ -186,7 +211,9 @@
                                 24h de atendimento
                             </li>
                         </ul>
-                        <a href="" class="plans__card__link ultra--color">Assinar plano</a>
+                        <a href="" class="plans__card__link ultra--color"
+                            >Assinar plano</a
+                        >
                     </div>
                     <div class="plans__card">
                         <h3 class="plans__card__title mega--color">Mega</h3>
@@ -200,15 +227,81 @@
                                 2 sistemas operacionais
                             </li>
                         </ul>
-                        <a href="" class="plans__card__link mega--color">Assinar plano</a>
+                        <a href="" class="plans__card__link mega--color"
+                            >Assinar plano</a
+                        >
                     </div>
                 </div>
             </section>
-            <section class="contact">
+            <section class="contact" id="contact">
                 <h2 class="contact__title">Contato</h2>
                 <p class="contact__text">Entre em contato com a gente</p>
                 <a href="" class="contact__link btn--link">Entre em contato</a>
             </section>
+            <section class="institutional" id="institutional">
+                <h2 class="institutional__title">Institucional</h2>
+                <p class="institutional__text">
+                    Um pouco mais sobre a Apeperia
+                </p>
+                <p class="institutional__text inst--adress">
+                    Rua Vergueiro, 3185
+                </p>
+                <p class="institutional__text inst--adress">
+                    Vila Mariana, São Paulo
+                </p>
+                <p class="institutional__text inst--contact">
+                    (11) 5571-2751 ou <span>contato@apeperia.com</span>
+                </p>
+                <video class="institutional__video" controls>
+                    <source
+                        src="./src/assets/video/formacao-java.mp4"
+                        type="video/mp4"
+                    />
+                </video>
+            </section>
         </main>
+        <footer class="footer">
+            <img
+                src="./src/assets/img/logo-apeperia.svg"
+                alt=""
+                class="footer__logo"
+            />
+            <div class="flexdirection">
+                <a href="" class="footer__image">
+                    <img src="./src/assets/img/facebook.png" alt="" />
+                </a>
+                <a href="" class="footer__image">
+                    <img src="./src/assets/img/twitter.png" alt="" />
+                </a>
+                <a href="" class="footer__image">
+                    <img src="./src/assets/img/instagram.png" alt="" />
+                </a>
+            </div>
+            <nav class="footer__menu">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#about" class="footer__link">Sobre</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#plans" class="footer__link">Planos</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#blog" class="footer__link">Blog</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#highlights" class="footer__link">Destaques</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#institutional" class="footer__link"
+                            >Institucional</a
+                        >
+                    </li>
+                    <li class="footer__item">
+                        <a href="#contact" class="footer__link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="./src/js/scroll-reveal.js"></script>
     </body>
 </html>
