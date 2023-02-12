@@ -5,6 +5,11 @@
 @import url("./css/highlights.css");
 @import url("./css/about.css");
 @import url("./css/plans.css");
+@import url("./css/contact.css");
+@import url("./css/insitutional.css");
+@import url("./css/footer.css");
+
+@import url("./css/media-query.css");
 
 body {
    font-family: 'Open Sans', sans-serif;
