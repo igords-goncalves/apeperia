@@ -5,6 +5,14 @@
 
     background: var(--bg-header-cta);
     color: var(--color-white);
+}
+
+.header .flexdirection {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     border-bottom: solid 1px var(--border-mobile-header);
 }
@@ -13,6 +21,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    
 
     margin: 20px 0;
 }
