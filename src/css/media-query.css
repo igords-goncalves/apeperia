@@ -1,0 +1,52 @@
+@media (min-width: 1024px) {
+    .header {
+        background-image: url("../assets/img/bg-intro.jpg");
+        border-bottom: none;
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        padding: 0 20px 80px 20px;
+    }
+
+    .header .flexdirection {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        border-bottom: none;
+    }
+
+    .cta__title {
+        font-size: 4em;
+    }
+
+    .flexcolumn {
+        padding: 10px 100px;
+    }
+
+    .about {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .aboutus__title {
+        text-align: start;
+    }
+
+    .aboutus--direction {
+        justify-content: space-around;
+        padding-right: 100px;
+    }
+
+    .plans {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .aboutus--image {
+        display: none;
+    }
+}
