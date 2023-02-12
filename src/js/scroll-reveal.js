@@ -1,5 +1,3 @@
-ScrollReveal({ reset: true });
-
 const sectionAbout = {
     cards: '.about'
 }
